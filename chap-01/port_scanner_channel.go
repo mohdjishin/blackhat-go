@@ -8,7 +8,7 @@ import (
 
 func worker(ports, results chan int) {
 	for p := range ports {
-		address := fmt.Sprintf("scanme.nmap.org:%d", p)
+		address := fmt.Sprintf("192.168.1.1:%d", p)
 		conn, err := net.Dial("tcp", address)
 		if err != nil {
 			results <- 0
@@ -44,3 +44,5 @@ func main() {
 		fmt.Printf("%d open\n", port)
 	}
 }
+
+// tcp proxy
