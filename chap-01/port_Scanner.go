@@ -12,7 +12,7 @@ func main() {
 		wg.Add(1)
 		go func(j int) {
 			defer wg.Done()
-			address := fmt.Sprintf("scanme.nmap.org:%d", j)
+			address := fmt.Sprintf("192.168.1.1:%d", j)
 			conn, err := net.Dial("tcp", address)
 			if err != nil {
 				return
