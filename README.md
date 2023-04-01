@@ -12,17 +12,17 @@ This repository is organized into chapters, each containing code examples and pr
 
 
 ```
-blackhat-go/
-└── chap-01
-    ├── echo_server
-    │   └── main.go
-    ├── netcat-e
-    │   └── main.go
-    ├── portscanner
-    │   ├── port_scanner_channel.go
-    │   └── port_Scanner.go
-    └── Proxying_TCP_client
-        └── main.go
+blackhat-go
+        └── chap-01
+            ├── echo_server
+            │   └── main.go
+            ├── netcat-e
+            │   └── main.go
+            ├── portscanner
+            │   ├── port_scanner_channel.go
+            │   └── port_Scanner.go
+            └── Proxying_TCP_client
+                └── main.go
 ```
 
 
