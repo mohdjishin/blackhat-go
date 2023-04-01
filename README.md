@@ -13,20 +13,21 @@ This repository is organized into chapters, each containing code examples and pr
 
 # Black Hat Go Examples
 
-```diff
-- blackhat-go/
-+ <span style="color: #4caf50">.</span>
-├── <span style="color: #03a9f4">chap-01/</span>
-│   ├── <span style="color: #03a9f4">echo_server/</span>
-│   │   └── <span style="color: #009688">main.go</span>
-│   ├── <span style="color: #03a9f4">netcat-e/</span>
-│   │   └── <span style="color: #009688">main.go</span>
-│   ├── <span style="color: #03a9f4">portscanner/</span>
-│   │   ├── <span style="color: #009688">port_scanner_channel.go</span>
-│   │   └── <span style="color: #009688">port_scanner.go</span>
-│   └── <span style="color: #03a9f4">proxying_tcp_client/</span>
-│       └── <span style="color: #009688">main.go</span>
 ```
+blackhat-go
+        └── chap-01
+            ├── echo_server
+            │     └── main.go
+            ├── netcat-e
+            │     └── main.go
+            ├── portscanner
+            │     ├── port_scanner_channel.go
+            │     └── port_Scanner.go
+            └── Proxying_TCP_client
+                  └── main.go
+```
+
+
 
 
 
