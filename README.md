@@ -38,3 +38,8 @@ To run the programs in this repository, you will need to have Go installed on yo
 
 To run a program, navigate to the chapter directory that contains the program you want to run and use the `go run` command. For example, to run `port_Scanner.go` in `chap-01/portscanner`, you would use the following command:
 
+```
+#usage
+cd chap-01/portscanner
+go run *.go
+```
