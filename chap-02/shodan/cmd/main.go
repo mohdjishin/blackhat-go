@@ -13,6 +13,7 @@ func main() {
 		log.Fatalln("Usage: go run cmd/main.go {keyword} ")
 	}
 	apiKey := os.Getenv("SHODAN_API_KEY")
+
 	s := shodan.New(apiKey)
 	info, err := s.APIInfo()
 	if err != nil {
