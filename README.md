@@ -14,17 +14,36 @@ This repository is organized into chapters, each containing code examples and pr
 # Black Hat Go Examples
 
 ```
-blackhat-go
-        └── chap-01
-            ├── echo_server
-            │     └── main.go
-            ├── netcat-e
-            │     └── main.go
-            ├── portscanner
-            │     ├── port_scanner_channel.go
-            │     └── port_Scanner.go
-            └── Proxying_TCP_client
-                  └── main.go
+blackhat-go/
+├── chap-01
+│   ├── echo_server
+│   │   └── main.go
+│   ├── portscanner
+│   │   ├── port_scanner_channel.go
+│   │   └── port_Scanner.go
+│   └── Proxying_TCP_client
+│       └── main.go
+├── chap-02
+│   ├── basics
+│   │   └── main.go
+│   ├── metasploit
+│   │   ├── client
+│   │   │   └── mian.go
+│   │   ├── go.mod
+│   │   ├── go.sum
+│   │   └── rpc
+│   │       └── msf.go
+│   ├── parsing
+│   │   └── main.go
+│   └── shodan
+│       ├── cmd
+│       │   └── main.go
+│       ├── go.mod
+│       └── shodan
+│           ├── api.go
+│           ├── host.go
+│           └── shodan.go
+└── README.md
 ```
 
 
